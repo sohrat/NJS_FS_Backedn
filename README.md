@@ -1,15 +1,15 @@
-# Node_FC_BACKEND
+# NodeJS_FS_Backend
 
-## To run the Backend
+## To run backend
 
 ```shell
-npm i
+npm i 
 npm start
 ```
 
-## To test the backend 
+## To test the backend
 
 ```shell
 npm i
-npm test 
+npm test
 ```
