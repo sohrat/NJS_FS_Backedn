@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-// Users
+// Users GET
 // http://localhost:3001/users
 router.get('/', (req,res,next)=>{
     res.status(200).json({
@@ -41,7 +41,7 @@ router.delete('/', (req,res,next)=>{
 });
 
 
-// ID
+// ID GET
 // http:localhost:3002/users/1212
 router.get('/:id', (req,res,next)=>{
     res.status(200).json({
@@ -55,7 +55,7 @@ router.get('/:id', (req,res,next)=>{
 
 
 
-// ID
+// ID POST
 // http:localhost:3002/users/1212
 router.post('/:id', (req,res,next)=>{
     res.status(201).json({
@@ -67,7 +67,7 @@ router.post('/:id', (req,res,next)=>{
     });
 });
 
-// ID
+// ID DELETE
 // http:localhost:3002/users/1212
 router.delete('/:id', (req,res,next)=>{
     res.status(200).json({
